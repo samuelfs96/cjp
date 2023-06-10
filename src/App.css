@@ -1,0 +1,53 @@
+.indiana-scroll-container{
+  border-radius: 0px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d6dee1;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.2s linear;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.bg-clp-purple.pulse{
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #6B43BCb3;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px #6B43BC00;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 #6B43BC00;
+  }
+
+  150% {
+    box-shadow: 0 0 0 0 #6B43BC00;
+  }
+
+  200% {
+    box-shadow: 0 0 0 0 #6B43BC00;
+  }
+}
+
+.float{position:fixed;width:60px;height:60px;bottom:40px;left:40px;background-color:#25d366;color:#fff;border-radius:50px;text-align:center;font-size:30px;box-shadow:2px 2px 3px #999;z-index:100}

@@ -1,0 +1,16 @@
+.clp-logo span{
+    align-self: auto;
+}
+
+.clp-logo img{
+    height: 8rem;
+}
+
+.clp-footer{
+    border-radius: 0;
+    background-color: #6B43BC !important;
+}
+
+.clp-footer a, .clp-footer p, .clp-footer h2, .clp-footer li, .clp-footer span {
+    color: white;
+}

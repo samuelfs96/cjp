@@ -1,0 +1,15 @@
+.activeNavItem{
+    padding: 1.25rem;
+    background-color: #6B43BC;
+    height: 350%;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .activeNavItem{
+        width: 100%;
+        border-radius: 9999px;
+        padding: 1rem;
+    }
+}
